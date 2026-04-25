@@ -24,7 +24,7 @@
 .card header h3 {
   font-size: 40px;
   font-weight: var(--title-weight);
-  margin-top: 8px;
+  margin: 8px auto 24px;
 }
 
 .card header span {
