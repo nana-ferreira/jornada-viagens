@@ -1,3 +1,7 @@
+.categories {
+  margin-bottom: 88px;
+}
+
 .categories .section-title {
   width: 312px;
   margin: 0 auto;
@@ -49,11 +53,16 @@
 
 @media screen and (min-width: 1024px) {
   .categories-cards {
-    margin: 0 80px;
+    width: 648px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1440px) {
+  .categories {
+    margin-bottom: 104px;
+  }
+
   .categories-cards .card {
     width: 282px;
   }
