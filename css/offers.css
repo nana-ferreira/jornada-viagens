@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  margin-bottom: 88px;
 }
 
 .offers-cards .card {
@@ -18,10 +17,7 @@
 }
 
 .offers-cards .card header {
-  display: block;
-  background-color: transparent;
-  padding: 0;
-  position: static;
+  margin-bottom: 24px;
 }
 
 .offers-cards .card header p {
@@ -32,7 +28,7 @@
 .offers-cards .card header h3 {
   font-size: 40px;
   font-weight: var(--title-weight);
-  margin: 8px auto 24px;
+  margin: 8px 0 0;
 }
 
 .offers-cards .card header span {
@@ -82,10 +78,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .offers-cards {
-    margin-bottom: 104px;
-  }
-
   .offers-cards .card {
     width: 588px;
     height: 308px;
