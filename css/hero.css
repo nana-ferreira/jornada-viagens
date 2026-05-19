@@ -22,6 +22,10 @@
 }
 
 /* PACOTES DE VIAGENS */
+.travel-packages.hero {
+  margin-bottom: 88px;
+}
+
 .travel-packages .hero-img {
   background: url(../img/pacotes-de-viagens/hero-japan-mobile.jpg) no-repeat
     center center/cover;
@@ -100,6 +104,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .travel-packages.hero {
+    margin-bottom: 104px;
+  }
+
   .travel-packages .hero-content {
     padding: 158px 120px;
   }
