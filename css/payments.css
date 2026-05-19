@@ -31,8 +31,19 @@
   display: inline-block;
 }
 
-.travel-packages .payments .content-container .image-gallery .image.first {
-  background: url(../img/gallery1-mobile.jpg) no-repeat center center/cover;
+.travel-packages.payments .content-container .image-gallery .image.first {
+  background: url(../img/pacotes-de-viagens/gallery1-japan-mobile.jpg) no-repeat
+    center center/cover;
+}
+
+.travel-packages.payments .content-container .image-gallery .image.second {
+  background: url(../img/pacotes-de-viagens/gallery2-japan-mobile.jpg) no-repeat
+    center center/cover;
+}
+
+.travel-packages.payments .content-container .image-gallery .image.thirdy {
+  background: url(../img/pacotes-de-viagens/gallery3-japan-mobile.jpg) no-repeat
+    center center/cover;
 }
 
 @media screen and (min-width: 768px) {
