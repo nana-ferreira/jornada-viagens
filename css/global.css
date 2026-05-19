@@ -53,6 +53,20 @@ section.bottom-hero {
   margin: 0;
 }
 
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  color: var(--text-secondary-color);
+}
+
+.hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+
 .section-title {
   width: 280px;
   margin: 0 auto 32px;
