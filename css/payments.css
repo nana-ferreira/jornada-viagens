@@ -23,6 +23,18 @@
   grid-column: span 2;
 }
 
+/* PACOTES DE VIAGENS */
+
+.travel-packages .content-container .content-title span {
+  font-size: 40px;
+  margin-bottom: 24px;
+  display: inline-block;
+}
+
+.travel-packages .payments .content-container .image-gallery .image.first {
+  background: url(../img/gallery1-mobile.jpg) no-repeat center center/cover;
+}
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-gallery .image.first {
     background: url(../img/gallery1-tablet.jpg) no-repeat center center/cover;
