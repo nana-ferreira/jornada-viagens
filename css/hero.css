@@ -68,8 +68,6 @@
   .travel-packages .hero-content p {
     font-size: 32px;
     line-height: 48px;
-    color: var(--text-secondary-color);
-    font-weight: var(--text-weight);
   }
 }
 
@@ -87,6 +85,31 @@
 
   .hero h2 {
     padding: 104px 120px;
+  }
+
+  /* PACOTES DE VIAGENS */
+  .travel-packages .hero-img {
+    background: url(../img/pacotes-de-viagens/hero-japan-desktop.jpg) no-repeat
+      center center/cover;
+  }
+
+  .travel-packages .hero-content {
+    padding: 180px 94px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .travel-packages .hero-content {
+    padding: 158px 120px;
+  }
+
+  .travel-packages .hero-content {
+    width: 1200px;
+  }
+
+  .travel-packages .hero-content p {
+    width: 580px;
   }
 }
 
