@@ -43,6 +43,12 @@
   font-weight: var(--text-weight);
 }
 
+.travel-packages.bottom-hero .hero-img {
+  background: url(../img/pacotes-de-viagens/bottom-hero-japan-mobile.jpg)
+    no-repeat center center/cover;
+  height: 400px;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     width: 100%;
@@ -73,6 +79,12 @@
     font-size: 32px;
     line-height: 48px;
   }
+
+  .travel-packages.bottom-hero .hero-img {
+    background: url(../img/pacotes-de-viagens/bottom-hero-japan-tablet.jpg)
+      no-repeat center center/cover;
+    height: 400px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -100,6 +112,12 @@
   .travel-packages .hero-content {
     padding: 180px 94px;
     margin: 0 auto;
+  }
+
+  .travel-packages.bottom-hero .hero-img {
+    background: url(../img/pacotes-de-viagens/bottom-hero-japan-desktop.jpg)
+      no-repeat center center/cover;
+    height: 600px;
   }
 }
 
