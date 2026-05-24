@@ -58,6 +58,42 @@
   .payments .content-container .image-gallery .image.thirdy {
     background: url(../img/gallery3-tablet.jpg) no-repeat center center/cover;
   }
+
+  /* PACOTES DE VIAGENS */
+
+  .travel-packages.payments .content-container .image-gallery .image.first {
+    background: url(../img/pacotes-de-viagens/gallery1-japan-tablet.jpg)
+      no-repeat center center/cover;
+  }
+
+  .travel-packages.payments .content-container .image-gallery .image.second {
+    background: url(../img/pacotes-de-viagens/gallery2-japan-tablet.jpg)
+      no-repeat center center/cover;
+  }
+
+  .travel-packages.payments .content-container .image-gallery .image.thirdy {
+    background: url(../img/pacotes-de-viagens/gallery3-japan-tablet.jpg)
+      no-repeat center center/cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* PACOTES DE VIAGENS */
+
+  .travel-packages.payments .content-container .image-gallery .image.first {
+    background: url(../img/pacotes-de-viagens/gallery1-japan-desktop.jpg)
+      no-repeat center center/cover;
+  }
+
+  .travel-packages.payments .content-container .image-gallery .image.second {
+    background: url(../img/pacotes-de-viagens/gallery2-japan-desktop.jpg)
+      no-repeat center center/cover;
+  }
+
+  .travel-packages.payments .content-container .image-gallery .image.thirdy {
+    background: url(../img/pacotes-de-viagens/gallery3-japan-desktop.jpg)
+      no-repeat center center/cover;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -65,6 +101,7 @@
     display: flex;
     justify-content: space-between;
   }
+
   .payments .content-container .text-content {
     width: 360px;
   }
@@ -72,5 +109,12 @@
   .payments .content-container .image-gallery {
     width: 790px;
     margin: 0;
+  }
+
+  /* PACOTES DE VIAGENS */
+
+  .travel-packages.payments .content-container {
+    display: flex;
+    align-items: center;
   }
 }
