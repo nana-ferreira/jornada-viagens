@@ -21,9 +21,16 @@
   line-height: 1.5;
 }
 
-/* PACOTES DE VIAGENS */
+/* BLOG E PACOTES DE VIAGENS */
+.blog.hero,
 .travel-packages.hero {
   margin-bottom: 88px;
+}
+
+.blog .hero-img {
+  background: url(../img/blog/hero-traveler-mobile.jpg) no-repeat center
+    center/cover;
+  height: 460px;
 }
 
 .travel-packages .hero-img {
@@ -32,10 +39,12 @@
   height: 460px;
 }
 
+.blog .hero-content,
 .travel-packages .hero-content {
   padding: 65px 24px;
 }
 
+.blog .hero-content p,
 .travel-packages .hero-content p {
   font-size: 20px;
   line-height: 32px;
