@@ -120,12 +120,18 @@
     padding: 104px 120px;
   }
 
-  /* PACOTES DE VIAGENS */
+  /* BLOG E PACOTES DE VIAGENS */
+  .blog .hero-img {
+    background: url(../img/blog/hero-traveler-desktop.jpg) no-repeat center
+      center/cover;
+  }
+
   .travel-packages .hero-img {
     background: url(../img/pacotes-de-viagens/hero-japan-desktop.jpg) no-repeat
       center center/cover;
   }
 
+  .blog .hero-content,
   .travel-packages .hero-content {
     padding: 180px 94px;
     margin: 0 auto;
@@ -139,18 +145,18 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .blog.hero,
   .travel-packages.hero {
     margin-bottom: 104px;
   }
 
+  .blog .hero-content,
   .travel-packages .hero-content {
     padding: 158px 120px;
-  }
-
-  .travel-packages .hero-content {
     width: 1200px;
   }
 
+  .blog .hero-content p,
   .travel-packages .hero-content p {
     width: 580px;
   }
