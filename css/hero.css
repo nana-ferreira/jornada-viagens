@@ -74,16 +74,24 @@
     font-size: 32px;
   }
 
-  /* PACOTES DE VIAGENS */
+  /* BLOG E PACOTES DE VIAGENS */
+  .blog .hero-img {
+    background: url(../img/blog/hero-traveler-tablet.jpg) no-repeat center
+      center/cover;
+    height: 620px;
+  }
+
   .travel-packages .hero-img {
     background: url(../img/pacotes-de-viagens/hero-japan-tablet.jpg) no-repeat
       center center/cover;
   }
 
+  .blog .hero-content,
   .travel-packages .hero-content {
     padding: 158px 94px;
   }
 
+  .blog .hero-content p,
   .travel-packages .hero-content p {
     font-size: 32px;
     line-height: 48px;
