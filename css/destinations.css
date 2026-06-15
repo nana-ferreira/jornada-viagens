@@ -85,6 +85,7 @@
   }
 
   /* BLOG */
+  .blog.destinations .content-container
   .blog-diary .destinations-items .item h3 {
     margin: 0 0 24px;
   }
@@ -94,7 +95,8 @@
   }
 
   .blog-diary .destinations-items .item.arrival footer {
-  
+    display: flex;
+    justify-content: space-between;
   }
 
   .blog-diary .destinations-items .item.arrival p {
