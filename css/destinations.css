@@ -83,6 +83,28 @@
   .destinations .button {
     width: 280px;
   }
+
+  /* BLOG */
+  .blog-diary .destinations-items .item h3 {
+    margin: 0 0 24px;
+  }
+
+  .blog-diary .destinations-items .item.arrival h3 {
+    margin-top: 0;
+  }
+
+  .blog-diary .destinations-items .item.arrival footer {
+  
+  }
+
+  .blog-diary .destinations-items .item.arrival p {
+    width: 312px;
+  }
+
+  .blog-diary.destinations .item.accommodation .img-item {
+    background: url(../img/tokyo-tablet-desk.jpg) no-repeat center center/cover;
+    height: 300px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
