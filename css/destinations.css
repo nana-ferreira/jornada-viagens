@@ -30,6 +30,32 @@
   width: 100%;
 }
 
+/** BLOG **/
+
+.blog.destinations .content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.blog.destinations .content-container .arrival-container .img-item {
+  background: url(../img/blog/tokyo-store-mobile-tablet.jpg) no-repeat center
+    center/cover;
+  width: 312px;
+  height: 360px;
+  margin-top: 24px;
+}
+
+.blog.destinations .content-container .accommodation-container .img-item {
+  background: url(../img/tokyo-mobile.jpg) no-repeat center center/cover;
+  width: 312px;
+  height: 300px;
+  margin-top: 24px;
+}
+
+figure {
+  margin: 0;
+}
 
 @media screen and (min-width: 768px) {
   .destinations .item.tokyo .img-item {
