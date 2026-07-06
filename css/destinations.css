@@ -49,6 +49,10 @@
   height: 360px;
 }
 
+figure {
+  margin: 0;
+}
+
 .blog.destinations .tokyo.content-container .accommodation-container .img-item {
   background: url(../img/tokyo-mobile.jpg) no-repeat center center/cover;
   width: 312px;
@@ -56,8 +60,8 @@
   margin-top: 24px;
 }
 
-figure {
-  margin: 0;
+.blog.destinations .tokyo.content-container .accommodation-container figcaption {
+  margin-top: 12px;
 }
 
 @media screen and (min-width: 768px) {
