@@ -69,6 +69,25 @@ figure {
   .destinations .button {
     width: 280px;
   }
+
+  /** BLOG **/
+
+  .blog.destinations .content-container .arrival-container {
+    display: flex;
+    gap: 24px;
+  }
+
+  .blog.destinations .content-container .arrival-container .text-container {
+    width: 312px;
+  }
+
+  .blog.destinations .content-container .accommodation-container .img-item {
+    background: url(../img/blog/tokyo-skyline-desktop.jpg) no-repeat center
+      center/cover;
+    width: 100%;
+    height: 300px;
+    margin-top: 24px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
