@@ -38,7 +38,11 @@
   gap: 32px;
 }
 
-.blog.destinations .content-container .arrival-container .img-item {
+.blog.destinations .tokyo.content-container .arrival-container .text-container {
+  flex: 1 1 312px;
+}
+
+.blog.destinations .tokyo.content-container .arrival-container .img-item {
   background: url(../img/blog/tokyo-store-mobile-tablet.jpg) no-repeat center
     center/cover;
   width: 312px;
@@ -46,7 +50,7 @@
   margin-top: 24px;
 }
 
-.blog.destinations .content-container .accommodation-container .img-item {
+.blog.destinations .tokyo.content-container .accommodation-container .img-item {
   background: url(../img/tokyo-mobile.jpg) no-repeat center center/cover;
   width: 312px;
   height: 300px;
@@ -72,16 +76,15 @@ figure {
 
   /** BLOG **/
 
-  .blog.destinations .content-container .arrival-container {
+  .blog.destinations .tokyo.content-container .arrival-container {
     display: flex;
     gap: 24px;
   }
 
-  .blog.destinations .content-container .arrival-container .text-container {
-    width: 312px;
-  }
-
-  .blog.destinations .content-container .accommodation-container .img-item {
+  .blog.destinations
+    .tokyo.content-container
+    .accommodation-container
+    .img-item {
     background: url(../img/blog/tokyo-skyline-desktop.jpg) no-repeat center
       center/cover;
     width: 100%;
