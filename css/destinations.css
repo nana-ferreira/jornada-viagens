@@ -47,7 +47,6 @@
     center/cover;
   width: 312px;
   height: 360px;
-  margin-top: 24px;
 }
 
 .blog.destinations .tokyo.content-container .accommodation-container .img-item {
@@ -106,6 +105,10 @@ figure {
   }
 
   /** BLOG **/
+
+  .blog.destinations .content-container {
+    gap: 48px;
+  }
 
   .blog.destinations .tokyo.content-container .arrival-container .img-item {
     background: url(../img/blog/tokyo-store-desktop.jpg) no-repeat center
