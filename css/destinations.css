@@ -104,4 +104,12 @@ figure {
   .destinations .item .img-item {
     height: 452px;
   }
+
+  /** BLOG **/
+
+  .blog.destinations .tokyo.content-container .arrival-container .img-item {
+    background: url(../img/blog/tokyo-store-desktop.jpg) no-repeat center
+      center/cover;
+    width: 588px;
+  }
 }
