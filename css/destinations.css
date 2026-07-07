@@ -113,7 +113,7 @@ figure {
   }
   
   .blog.recommendations.destinations .item.kyoto .img-item {
-    background: url(../img/blog/kyoto-tablet-desktop.jpg) no-repeat center center/cover;
+    background: url(../img/blog/kyoto-tablet-desktop.jpg) no-repeat right center/cover;
   }
 }
 
@@ -139,5 +139,13 @@ figure {
     background: url(../img/blog/tokyo-store-desktop.jpg) no-repeat center
       center/cover;
     width: 588px;
+  }
+
+  .blog.recommendations.destinations .destinations-items {
+    align-items: baseline;
+  }
+
+  .blog.recommendations.destinations .destinations-items .item {
+    min-width: 384px;
   }
 }
