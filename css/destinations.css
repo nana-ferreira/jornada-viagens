@@ -107,6 +107,14 @@ figure {
     height: 300px;
     margin-top: 24px;
   }
+
+  .blog.recommendations.destinations .item.hiroshima .img-item {
+    background: url(../img/blog/hiroshima-tablet-desktop.jpg) no-repeat center center/cover;
+  }
+  
+  .blog.recommendations.destinations .item.kyoto .img-item {
+    background: url(../img/blog/kyoto-tablet-desktop.jpg) no-repeat center center/cover;
+  }
 }
 
 @media screen and (min-width: 1440px) {
