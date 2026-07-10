@@ -147,8 +147,14 @@
       center center/cover;
   }
 
+  .contato .hero-img {
+    background: url(../img/contato/hero-contato-desktop.jpg) no-repeat
+      center center/cover;
+  }
+
   .blog .hero-content,
-  .travel-packages .hero-content {
+  .travel-packages .hero-content,
+  .contato .hero-content {
     padding: 180px 94px;
     margin: 0 auto;
   }
@@ -162,18 +168,21 @@
 
 @media screen and (min-width: 1440px) {
   .blog.hero,
-  .travel-packages.hero {
+  .travel-packages.hero,
+  .contato.hero {
     margin-bottom: 104px;
   }
 
   .blog .hero-content,
-  .travel-packages .hero-content {
+  .travel-packages .hero-content,
+  .contato .hero-content {
     padding: 158px 120px;
     width: 1200px;
   }
 
   .blog .hero-content p,
-  .travel-packages .hero-content p {
+  .travel-packages .hero-content p,
+  .contato .hero-content p {
     width: 580px;
   }
 }
