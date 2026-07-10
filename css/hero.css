@@ -28,31 +28,33 @@
   margin-bottom: 88px;
 }
 
-.hero-img {
-  height: 460px;
-}
-
 .blog .hero-img {
   background: url(../img/blog/hero-traveler-mobile.jpg) no-repeat center
     center/cover;
+    height: 460px;
 }
 
 .travel-packages .hero-img {
   background: url(../img/pacotes-de-viagens/hero-japan-mobile.jpg) no-repeat
     center center/cover;
+    height: 460px;
 }
 
 .contato .hero-img {
-  background: url(../img/);
+  background: url(../img/contato/hero-contato-mobile.jpg) no-repeat
+    center center/cover;
+    height: 460px;
 }
 
 .blog .hero-content,
-.travel-packages .hero-content {
+.travel-packages .hero-content,
+.contato .hero-content {
   padding: 65px 24px;
 }
 
 .blog .hero-content p,
-.travel-packages .hero-content p {
+.travel-packages .hero-content p,
+.contato .hero-content p {
   font-size: 20px;
   line-height: 32px;
   color: var(--text-secondary-color);
