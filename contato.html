@@ -79,7 +79,8 @@
             <h1>Entre em contato!</h1>
             <hr />
             <p>
-              Dúvidas, sugestões, problemas para resolver? Temos uma equipe de plantão para ajudar você!
+              Dúvidas, sugestões, problemas para resolver? Temos uma equipe de
+              plantão para ajudar você!
             </p>
           </div>
         </div>
@@ -101,22 +102,51 @@
 
         <form action="#" class="contact-form">
           <label for="name" class="sr-only">Seu nome</label>
-          <input id="name" type="text" name="userName" placeholder="Seu nome" required />
-          <br />
-          <label for="phoneNumber" class="sr-only">Telefone</label>
-          <input id="phoneNumber" type="tel" name="userPhoneNumber" placeholder="Telefone" required />
-          <br />
-          <label for="email" class="sr-only">E-mail</label>
-          <input id="email" type="email" name="userEmail" placeholder="E-mail" required />
-          <br />
+          <input
+            id="name"
+            type="text"
+            name="userName"
+            placeholder="Seu nome"
+            required
+          />
+
+          <div class="user-contacts">
+            <label for="phoneNumber" class="sr-only">Telefone</label>
+            <input
+              id="phoneNumber"
+              type="tel"
+              name="userPhoneNumber"
+              placeholder="Telefone"
+              required
+            />
+            <label for="email" class="sr-only">E-mail</label>
+            <input
+              id="email"
+              type="email"
+              name="userEmail"
+              placeholder="E-mail"
+              required
+            />
+          </div>
           <label for="subject" class="sr-only">Assunto</label>
-          <input id="subject" type="text" name="userSubject" placeholder="Assunto" required />
-          <br>
+          <input
+            id="subject"
+            type="text"
+            name="userSubject"
+            placeholder="Assunto"
+            required
+          />
           <label for="comment">Comentário</label>
-          <br>
+          <br />
           <textarea name="userComment" id="comment"></textarea>
-          <br>
-          <button class="button" type="submit" aria-label="Enviar dados do formulário">Enviar</button>
+          <br />
+          <button
+            class="button"
+            type="submit"
+            aria-label="Enviar dados do formulário"
+          >
+            Enviar
+          </button>
         </form>
       </section>
     </main>

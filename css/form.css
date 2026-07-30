@@ -75,3 +75,26 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .contato.form .contact-form {
+    max-width: 790px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .contato.form {
+    margin: 0 auto 120px;
+  }
+
+  .contato.form .contact-form .user-contacts {
+    display: flex;
+    gap: 35px;
+  }
+
+  .contato.form .contact-form input#email,
+  .contato.form .contact-form input#phoneNumber {
+    width: 50%;
+  }
+}
