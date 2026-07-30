@@ -62,3 +62,16 @@
   width: 100%;
   border: none;
 }
+
+@media screen and (min-width: 768px) {
+  .contato.form header p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .contact-form .button {
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+  }
+}
