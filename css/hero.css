@@ -148,7 +148,7 @@
     padding: 104px 120px;
   }
 
-  /* BLOG E PACOTES DE VIAGENS */
+  /* BLOG, PACOTES DE VIAGENS E CONTATO */
   .blog .hero-img {
     background: url(../img/blog/hero-traveler-desktop.jpg) no-repeat center
       center/cover;
@@ -175,6 +175,11 @@
     background: url(../img/pacotes-de-viagens/bottom-hero-japan-desktop.jpg)
       no-repeat center center/cover;
     height: 600px;
+  }
+
+  .contato.bottom-hero .hero-img {
+    background: url(../img/contato/bhero-contato-desktop.jpg) no-repeat center
+      center/cover;
   }
 }
 
