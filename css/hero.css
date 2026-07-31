@@ -31,19 +31,19 @@
 .blog .hero-img {
   background: url(../img/blog/hero-traveler-mobile.jpg) no-repeat center
     center/cover;
-    height: 460px;
+  height: 460px;
 }
 
 .travel-packages .hero-img {
   background: url(../img/pacotes-de-viagens/hero-japan-mobile.jpg) no-repeat
     center center/cover;
-    height: 460px;
+  height: 460px;
 }
 
 .contato .hero-img {
-  background: url(../img/contato/hero-contato-mobile.jpg) no-repeat
-    center center/cover;
-    height: 460px;
+  background: url(../img/contato/hero-contato-mobile.jpg) no-repeat center
+    center/cover;
+  height: 460px;
 }
 
 .blog .hero-content,
@@ -67,6 +67,12 @@
   height: 400px;
 }
 
+.contato.bottom-hero .hero-img {
+  background: url(../img/contato/bhero-contato-mobile.jpg) no-repeat center
+    center/cover;
+  height: 400px;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     width: 100%;
@@ -83,7 +89,7 @@
     font-size: 32px;
   }
 
- /* BLOG, PACOTES DE VIAGENS E CONTATO */
+  /* BLOG, PACOTES DE VIAGENS E CONTATO */
   .blog .hero-img {
     background: url(../img/blog/hero-traveler-tablet.jpg) no-repeat center
       center/cover;
@@ -96,8 +102,8 @@
   }
 
   .contato .hero-img {
-    background: url(../img/contato/hero-contato-tablet.jpg) no-repeat
-      center center/cover;
+    background: url(../img/contato/hero-contato-tablet.jpg) no-repeat center
+      center/cover;
   }
 
   .blog .hero-content,
@@ -148,8 +154,8 @@
   }
 
   .contato .hero-img {
-    background: url(../img/contato/hero-contato-desktop.jpg) no-repeat
-      center center/cover;
+    background: url(../img/contato/hero-contato-desktop.jpg) no-repeat center
+      center/cover;
   }
 
   .blog .hero-content,
